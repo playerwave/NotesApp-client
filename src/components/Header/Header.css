@@ -1,0 +1,20 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: solid 1px black;
+}
+
+.header-h1 {
+  margin-left: 20px;
+}
+
+.no-style-link {
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+  color: inherit; /* ใช้สีของตัวอักษรจากส่วนอื่น ๆ */
+}
+
+.nav {
+  margin-top: 20px;
+  margin-right: 20px;
+}

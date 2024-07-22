@@ -1,0 +1,13 @@
+.login-btn {
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.login-btn:hover {
+  transform: scale(1.2); 
+}
