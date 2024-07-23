@@ -1,12 +1,12 @@
 import React from "react";
-import "./Login.css";
+import "./Signup.css";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Signup = () => {
   return (
-    <div className="login-layout">
-      <div className="login-form-card">
-        <h2>Login</h2>
+    <div className="signup-layout">
+      <div className="signup-form-card">
+        <h2>Sign Up</h2>
         <form action="#">
           <label>Username</label>
           <div>
@@ -19,12 +19,12 @@ const Login = () => {
           </div>
         </form>
         <br />
-        <button className="login-button">Login</button>
+        <button className="signup-button">Sign Up</button>
         <br />
         <p>
-          You don't have account?{" "}
-          <Link to="/signup" className="signup-link">
-            Sign Up
+          Already have account?{" "}
+          <Link to="/login" className="login-link">
+            Login
           </Link>
         </p>
       </div>
@@ -32,4 +32,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;

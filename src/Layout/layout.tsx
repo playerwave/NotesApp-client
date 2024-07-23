@@ -3,10 +3,9 @@ import Header from "../components/Header/Header";
 
 type Props = {
   children: React.ReactNode;
-  showHero?: boolean;
 };
 
-const layout = ({ children, showHero = false }: Props) => {
+const Layout = ({ children }: Props) => {
   return (
     <div>
       <Header />
@@ -16,4 +15,4 @@ const layout = ({ children, showHero = false }: Props) => {
   );
 };
 
-export default layout;
+export default Layout;

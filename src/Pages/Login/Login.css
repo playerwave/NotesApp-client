@@ -1,0 +1,27 @@
+.login-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.login-button {
+  padding: 12px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: green;
+}
